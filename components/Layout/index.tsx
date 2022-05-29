@@ -40,7 +40,7 @@ const Layout: React.FC<Props> = ({ title, children, className, style }) => {
                     <NavItem href="/turneringer" text="Turneringer" />
                     <NavItem href="#section4" text="Bestyrelsen" />
                     <NavItem href="/fonden" text="Fonden" />
-                    <NavItem href="/andet" text="Andet" />
+                    <NavItem href="/arkiv" text="Arkiv" />
                 </Navigation>
                 <button className={styles.hamburger}>
                     <FaBars />

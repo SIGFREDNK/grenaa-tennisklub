@@ -48,7 +48,7 @@ export default async function (req: NextApiRequest, res: NextApiResponse) {
 
     const mailData = {
         from: 'mailbot@simaaps.dk',
-        to: 'sigfred00@hotmail.com',
+        to: ['sigfred00@hotmail.com', 'lissy.noergaard@gmail.com'],
         subject: `Indmelding (${req.body.firstname} ${req.body.lastname})`,
         text: text,
         html: html
