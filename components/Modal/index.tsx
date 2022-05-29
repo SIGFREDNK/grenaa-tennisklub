@@ -18,7 +18,7 @@ import { CgClose } from 'react-icons/cg';
 import styles from './Modal.module.scss';
 
 const Modal: React.FC<Props> = ({ children, className, style, open, title, onClose }) => {
-    const modal = useRef<HTMLDialogElement | undefined>();
+    const modal = useRef<any>();
 
     useEffect(() => {
         if (!modal.current) return;
