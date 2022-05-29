@@ -1,0 +1,21 @@
+.carousel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.5rem;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    cursor: grab;
+    place-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.carousel.active {
+    cursor: grabbing;
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}

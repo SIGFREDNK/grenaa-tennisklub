@@ -1,0 +1,18 @@
+.wrapper {
+    margin-top: 1rem;
+    width: 100%;
+
+    .title {
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    .select {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        height: 1.5rem;
+        font-size: 1rem;
+        margin-top: 0.25rem;
+    }
+}

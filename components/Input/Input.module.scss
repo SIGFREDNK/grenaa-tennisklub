@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    label {
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    input {
+        border: none;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        height: 1.5rem;
+        font-size: 1rem;
+        margin-top: 0.25rem;
+    }
+}
